@@ -1,0 +1,4 @@
+test:
+ override:
+ #テスト実行
+ - ssh -p 22 ec2-user@54.92.42.116 /home/ec2-user/hoge.sh
