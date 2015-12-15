@@ -3,4 +3,4 @@ test:
  #最新資産を取得
  - ssh -p 22 ec2-user@54.92.42.116 /home/ec2-user/clone.sh
  #テスト実行
- - ssh -p 22 ec2-user@54.92.42.116 /home/ec2-user/github/sandbox/doki.sh
+ - ssh -p 22 ec2-user@54.92.42.116 /bin/bash /home/ec2-user/github/sandbox/doki.sh
